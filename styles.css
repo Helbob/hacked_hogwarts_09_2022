@@ -460,8 +460,12 @@ button.closebuttons {
   animation-duration: 2s;
 }
 
-.hack .dialog2,
-.dialog {
+.hack .dialog2 {
+  background-color: #dd93d4;
+  font-family: monospace;
+}
+
+.hack .dialog {
   background-color: #dd93d4;
   font-family: monospace;
 }
