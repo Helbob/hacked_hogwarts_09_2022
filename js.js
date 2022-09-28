@@ -316,6 +316,8 @@ function displayStudents(student) {
   } else {
     klon.querySelector("#prefect").src = `./images/non-prefect.png`;
   }
+
+  //CAN IT WORK PLS
   klon.querySelector("#prefect").addEventListener("click", prefectToggle);
   function prefectToggle() {
     if (student.prefect === true) {
